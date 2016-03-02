@@ -13,6 +13,14 @@ import javax.swing.*;
 public class Filtro_BD extends JFrame{
     
     Filtro_BD(){
-        
+        setTitle("Esto es una prueba");
+        setSize(500,500);
+        setLayout(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    
+    public static void main(String[]args){
+        new Filtro_BD();
     }
 }
