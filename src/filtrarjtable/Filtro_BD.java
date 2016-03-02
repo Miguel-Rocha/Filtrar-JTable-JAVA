@@ -4,11 +4,15 @@
  * and open the template in the editor.
  */
 package filtrarjtable;
-
+import java.awt.*;
+import javax.swing.*;
 /**
  *
  * @author Miguel Rocha
  */
-public class Filtro_BD {
+public class Filtro_BD extends JFrame{
     
+    Filtro_BD(){
+        
+    }
 }
